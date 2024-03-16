@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <div class="box wifi" id="wifi">
+        <i class="fa-solid fa-wifi fa-lg" style="color: #ffffff"></i>
+        <div>
+          <p>Wi-Fi</p>
+          <span>off</span>
+        </div>
+      </div>
+      <div class="box brightness" id="brightness">
+        <div class="progress0"></div>
+        <i class="fa-solid fa-sun"></i>
+      </div>
+      <div class="box sound" id="sound">
+        <div class="progress"></div>
+        <i class="fa-solid fa-music"></i>
+      </div>
+      <div class="box internet" id="internet">
+        <i class="fa-solid fa-arrow-right-arrow-left fa-lg fa-rotate-90"></i>
+        <div>
+          <p>Jio</p>
+          <span>on</span>
+        </div>
+      </div>
+      <div>
+        <div class="box blutooth round">
+          <i class="fa-brands fa-bluetooth-b fa-lg"></i>
+        </div>
+        <small> Bluetooth </small>
+      </div>
+      <div>
+        <div class="box torch round">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <small> Torch</small>
+      </div>
+      <div>
+        <div
+          class="box autobright round"
+          style="background-color: rgb(59, 108, 255)"
+        >
+          A
+        </div>
+        <small> Auto </small>
+      </div>
+      <div>
+        <div class="box mute round" id="bell">
+          <i class="fa-solid fa-bell" id="fabell"></i>
+        </div>
+        <small> Mute</small>
+      </div>
+      <div>
+        <div
+          class="box darkmode round"
+          style="background-color: rgb(59, 108, 255)"
+        >
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </div>
+        <small>Dark Mode</small>
+      </div>
+      <div>
+        <div class="box aeroplane round">
+          <i class="fa-solid fa-plane fa-rotate-270"></i>
+        </div>
+        <small> Aeroplane</small>
+      </div>
+      <div>
+        <div class="box lock round">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <small> Lock</small>
+      </div>
+      <div>
+        <div class="box loaction round">
+          <i class="fa-solid fa-location-arrow"></i>
+        </div>
+        <small> Location </small>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
